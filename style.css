@@ -84,14 +84,14 @@ button{
     display:none;
     margin:15% auto;
     padding:20px;
-    width: 60%;
-    border-radius: 10px;
+    width: 30%;
+    height: auto;
+    border-radius: 30px;
     position:relative;
     margin-left: auto;
     margin-right: auto;
-    position:relative;
-    margin-left: auto;
-    margin-right: auto;
+    border:3px inset white;
+    
 
 }
 
