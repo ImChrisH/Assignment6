@@ -23,7 +23,7 @@ if (amount < 0){
         
         return;
     }
-//Typo or big spenders check
+//Typo or big spenders(over $10000) check
 if (amount>10000){
     resultstring.textContent=`Please check for typo or ask for a manager to calculate orders over $10000.`
     return;
