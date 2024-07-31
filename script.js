@@ -1,11 +1,12 @@
 console.log('hi');
 
 let tInput=document.querySelector('.tInput');
-let totalOutput=document.querySelector('.totalOutput')
 let totalBtn=document.querySelector('.totalBtn')
-let iTip=document.querySelector('.iTip')
-let bill=document.querySelector('.bill')
 let resultstring=document.querySelector('.resultstring')
+        // Temporary, previous code
+        // let iTip=document.querySelector('.iTip')
+        // let bill=document.querySelector('.bill')
+        // let totalOutput=document.querySelector('.totalOutput')
 
 totalBtn.addEventListener('click', tipCalc);
 
@@ -14,7 +15,8 @@ let amount= parseFloat(tInput.value);
 
 //positive number check
 if (amount < 0){
-        resultstring.textContent=`Please enter positive number.`
+        resultstring.textContent=`Please enter a positive number.`
+        // Temporary previous code
         // iTip.textContent=`Enter positive number`;
         // totalOutput.textContent= `Enter positive number`;
         // bill.textContent= `Enter positive number`;
@@ -36,7 +38,7 @@ let total= amount+tip;
 
 console.log(`The bill  was ${amount.toFixed(2)}, the tip was ${tip.toFixed(2)}, and the total value is ${total.toFixed(2)}`)
 resultstring.textContent=`The bill  was ${amount.toFixed(2)}, the tip was ${tip.toFixed(2)}, and the total value is ${total.toFixed(2)}.`
-
+        //Temporary,previous string code i used.
         // bill.textContent=`$${amount.toFixed(2)}`;
         // iTip.textContent=`$${tip.toFixed(2)}`;
         // totalOutput.textContent= `$${total.toFixed(2)}`;
